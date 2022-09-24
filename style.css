@@ -4,26 +4,24 @@
 }
 
 body {
+
+
     height: 100vh;
     font-family: 'Inter', sans-serif;
     background-color: 605E86;
 }
 
-.txt-m-color {
-    color: #63B9F4;
-}
-
-.bg-m-color {
-    background-color: #63B9F4
-}
-
-.bg-s-color {
-    background-color: #FE5341;
-}
-
 .fix-logo-img {
-    margin-top: 100px;
-    height: 100px;
+    width: 10em;
+}
+
+.fix-main-logo-img {}
+
+.custom-bg-img {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    background-image: url(img/login/login-page-bg.svg);
 }
 
 .login {
@@ -35,12 +33,12 @@ body {
 }
 
 .login h1 {
-    font-size: 32px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 .login form {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .login form .form-group {
@@ -48,6 +46,19 @@ body {
 }
 
 .login form input [type="submit"] {
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 12px;
+}
+
+.form-check {
+    padding: 0;
+}
+
+.register {
+
+    width: 500px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 21px;
+    background-color: aliceblue;
 }
